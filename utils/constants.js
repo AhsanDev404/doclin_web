@@ -1,4 +1,5 @@
 import { RiCalendar2Line, RiCalendarCheckLine, RiCalendarEventLine } from 'react-icons/ri';
+import { RiDashboardLine, RiUserSettingsLine, RiStethoscopeLine, RiBookLine, RiUserAddLine } from 'react-icons/ri';
 
 export const doctorNavigation = [
     {
@@ -159,5 +160,34 @@ export const appointmentDaysData = [
     },
     // Add more events as needed
   ];
+
+  export const adminNavigation = [
+    {
+        title: "Dashboard",
+        link: "/admin",
+        icon: <RiDashboardLine /> // Dashboard icon
+    },
+    {
+        title: "User Management",
+        link: "/admin/user-management",
+        icon: <RiUserSettingsLine /> // User Management icon
+    },
+    {
+        title: "Doctor Management",
+        link: "/admin/doctor-management",
+        icon: <RiStethoscopeLine /> // Doctor Management icon
+    },
+    {
+      title: "Booking Management",
+      link: "/admin/booking-management",
+      icon: <RiBookLine /> // Booking Management icon
+    },
+    {
+      title: "Doctor Registration",
+      link: "/admin/doctor-registration",
+      icon: <RiUserAddLine /> // Doctor Registration icon
+    },
+];
+
   
   

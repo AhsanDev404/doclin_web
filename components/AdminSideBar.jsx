@@ -1,4 +1,4 @@
-import { doctorNavigation } from "@/utils/constants";
+import { adminNavigation, doctorNavigation } from "@/utils/constants";
 import { Box, Button, Icon } from "@chakra-ui/react";
 import Link from "next/link";
 import React from "react";
@@ -22,7 +22,7 @@ export default function AdminSideBar() {
         <Box>logo</Box>
 
 <Box paddingTop={50}>
-  {doctorNavigation.map((item, index) => (
+  {adminNavigation.map((item, index) => (
     <Box paddingTop={5} key={index} display="flex" alignItems="center">
       <Link href={item.link}>
         <Button

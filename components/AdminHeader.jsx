@@ -2,7 +2,7 @@
 import { Box, Button, Input, Flex } from "@chakra-ui/react";
 import { useForm, Controller } from "react-hook-form";
 import { FaSearch } from "react-icons/fa";
-import { adminNav, doctorNavigation } from "@/utils/constants";
+import { adminNav, adminNavigation, doctorNavigation } from "@/utils/constants";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -12,7 +12,7 @@ export default function AdminHeader() {
   const pathname = usePathname();
 
   useEffect(() => {
-    doctorNavigation.map((item) => pathname === item.link && setNavItem(item));
+    adminNavigation.map((item) => pathname === item.link && setNavItem(item));
   }, [pathname]);
 
   const onSubmit = (data) => {
