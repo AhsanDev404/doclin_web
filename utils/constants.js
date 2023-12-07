@@ -189,5 +189,273 @@ export const appointmentDaysData = [
     },
 ];
 
+export const userData = [
+  {
+    id: 1,
+    patientName: "John Doe",
+    patientEmail: "example@gmail.com",
+    totalBookings: 23,
+  },
+  {
+    id: 2,
+    patientName: "Alice Smith",
+    patientEmail: "alice@example.com",
+    totalBookings: 15,
+  },
+  {
+    id: 3,
+    patientName: "Bob Johnson",
+    patientEmail: "bob@example.com",
+    totalBookings: 30,
+  },
+  {
+    id: 4,
+    patientName: "Emma Brown",
+    patientEmail: "emma@example.com",
+    totalBookings: 18,
+  },
+  {
+    id: 5,
+    patientName: "Michael Davis",
+    patientEmail: "michael@example.com",
+    totalBookings: 10,
+  },
+  {
+    id: 6,
+    patientName: "Sophia Wilson",
+    patientEmail: "sophia@example.com",
+    totalBookings: 28,
+  },
+  {
+    id: 7,
+    patientName: "Oliver Taylor",
+    patientEmail: "oliver@example.com",
+    totalBookings: 20,
+  },
+  {
+    id: 8,
+    patientName: "Ava Garcia",
+    patientEmail: "ava@example.com",
+    totalBookings: 25,
+  },
+  {
+    id: 9,
+    patientName: "Noah Martinez",
+    patientEmail: "noah@example.com",
+    totalBookings: 12,
+  },
+  {
+    id: 10,
+    patientName: "Isabella Rodriguez",
+    patientEmail: "isabella@example.com",
+    totalBookings: 21,
+  },
+  {
+    id: 11,
+    patientName: "William Lee",
+    patientEmail: "william@example.com",
+    totalBookings: 17,
+  },
+];
+export const userAppointment = [
+  {
+    id: 1,
+    bookingDay: "Sunday",
+    bookingTime: "10:00PM - 11:00PM",
+    bookingDate: "23/2/2",
+    doctorName: "John Doe",
+  },
+  {
+    id: 2,
+    bookingDay: "Monday",
+    bookingTime: "9:00AM - 10:00AM",
+    bookingDate: "24/2/2",
+    doctorName: "Alice Smith",
+  },
+  {
+    id: 3,
+    bookingDay: "Tuesday",
+    bookingTime: "2:00PM - 3:00PM",
+    bookingDate: "25/2/2",
+    doctorName: "Bob Johnson",
+  },
+  {
+    id: 4,
+    bookingDay: "Wednesday",
+    bookingTime: "4:00PM - 5:00PM",
+    bookingDate: "26/2/2",
+    doctorName: "Emma Brown",
+  },
+  {
+    id: 5,
+    bookingDay: "Thursday",
+    bookingTime: "11:00AM - 12:00PM",
+    bookingDate: "27/2/2",
+    doctorName: "Michael Davis",
+  },
+  {
+    id: 6,
+    bookingDay: "Friday",
+    bookingTime: "1:00PM - 2:00PM",
+    bookingDate: "28/2/2",
+    doctorName: "Sophia Wilson",
+  },
+  {
+    id: 7,
+    bookingDay: "Saturday",
+    bookingTime: "3:00PM - 4:00PM",
+    bookingDate: "29/2/2",
+    doctorName: "Oliver Taylor",
+  },
+  {
+    id: 8,
+    bookingDay: "Sunday",
+    bookingTime: "10:00AM - 11:00AM",
+    bookingDate: "1/3/2",
+    doctorName: "Ava Garcia",
+  },
+  {
+    id: 9,
+    bookingDay: "Monday",
+    bookingTime: "5:00PM - 6:00PM",
+    bookingDate: "2/3/2",
+    doctorName: "Noah Martinez",
+  },
+  {
+    id: 10,
+    bookingDay: "Tuesday",
+    bookingTime: "12:00PM - 1:00PM",
+    bookingDate: "3/3/2",
+    doctorName: "Isabella Rodriguez",
+  },
+  {
+    id: 11,
+    bookingDay: "Wednesday",
+    bookingTime: "3:00PM - 4:00PM",
+    bookingDate: "4/3/2",
+    doctorName: "William Lee",
+  },
+];
+
+export const doctorData = [
+  {
+    id: 1,
+    doctorName: "Dr. John Smith",
+    specialization: "Cardiology",
+    experience: 15,
+  },
+  {
+    id: 2,
+    doctorName: "Dr. Emily Johnson",
+    specialization: "Pediatrics",
+    experience: 10,
+  },
+  {
+    id: 3,
+    doctorName: "Dr. Michael Williams",
+    specialization: "Orthopedics",
+    experience: 20,
+  },
+  // Add more doctor objects as needed
+];
+export const doctorAppointment = [
+  {
+    id: 1,
+    bookingDay: "Monday",
+    bookingTime: "10:00AM - 11:00AM",
+    bookingDate: "2023-01-16",
+    patientName: "Alice Smith",
+  },
+  {
+    id: 2,
+    bookingDay: "Wednesday",
+    bookingTime: "2:00PM - 3:00PM",
+    bookingDate: "2023-01-18",
+    patientName: "Bob Johnson",
+  },
+  {
+    id: 3,
+    bookingDay: "Friday",
+    bookingTime: "3:00PM - 4:00PM",
+    bookingDate: "2023-01-20",
+    patientName: "Emily Davis",
+  },
+  // Add more appointment objects as needed
+];
+
+export const booking = [
+  {
+    id: 1,
+    bookingDay: "Monday",
+    bookingTime: "10:00AM - 11:00AM",
+    bookingDate: "2023-01-16",
+    patientName: "Alice Smith",
+    doctorName: "Dr. John Doe",
+  },
+  {
+    id: 2,
+    bookingDay: "Wednesday",
+    bookingTime: "2:00PM - 3:00PM",
+    bookingDate: "2023-01-18",
+    patientName: "Bob Johnson",
+    doctorName: "Dr. Emily Johnson",
+  },
+  {
+    id: 3,
+    bookingDay: "Friday",
+    bookingTime: "3:00PM - 4:00PM",
+    bookingDate: "2023-01-20",
+    patientName: "Emily Davis",
+    doctorName: "Dr. Michael Williams",
+  },
+  // Add more booking objects as needed
+];
+
+export const sampleData = [
+  {
+    name: "Page A",
+    uv: 4000,
+    pv: 2400,
+    amt: 2400,
+  },
+  {
+    name: "Page B",
+    uv: 3000,
+    pv: 1398,
+    amt: 2210,
+  },
+  {
+    name: "Page C",
+    uv: 2000,
+    pv: 9800,
+    amt: 2290,
+  },
+  {
+    name: "Page D",
+    uv: 2780,
+    pv: 3908,
+    amt: 2000,
+  },
+  {
+    name: "Page E",
+    uv: 1890,
+    pv: 4800,
+    amt: 2181,
+  },
+  {
+    name: "Page F",
+    uv: 2390,
+    pv: 3800,
+    amt: 2500,
+  },
+  {
+    name: "Page G",
+    uv: 3490,
+    pv: 4300,
+    amt: 2100,
+  },
+];
+
+
   
   

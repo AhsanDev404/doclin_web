@@ -12,7 +12,7 @@ import {
 } from "@chakra-ui/react";
 import { IoIosInformationCircle } from "react-icons/io";
 import { MdDelete } from "react-icons/md";
-import { booking } from "@/utils/constants";
+import { userAppointment } from "@/utils/constants";
 
 
 
@@ -30,18 +30,16 @@ export default function Page() {
               <Th>Booking Day</Th>
               <Th>Booking Time</Th>
               <Th>Booking Date</Th>
-              <Th>patient Name</Th>
-              <Th>doctor  Name</Th>
+              <Th>Doctor Name</Th>
             </Tr>
           </Thead>
           <Tbody>
-            {booking.map((appointment) => (
+            {userAppointment.map((appointment) => (
               <Tr key={appointment.id}>
                 <Td>{appointment.id}</Td>
                 <Td>{appointment.bookingDay}</Td>
                 <Td>{appointment.bookingTime}</Td>
                 <Td>{appointment.bookingDate}</Td>
-                <Td>{appointment.patientName}</Td>
                 <Td>{appointment.doctorName}</Td>
               </Tr>
             ))}
